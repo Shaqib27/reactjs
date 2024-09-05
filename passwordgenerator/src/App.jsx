@@ -42,7 +42,7 @@ function App() {
   return (
     <>
 
-      <div className='bg-slate-700 max-w-md mx-auto my-8 rounded-md shadow-md px-3'>
+      <div className='bg-teal-500 max-w-md mx-auto my-10 rounded-md shadow-md px-3'>
         <h1 className='text-green-500 text-center py-2'>PASSWORD GENERATOR</h1>
 
         <div className='flex shadow-md rounded-md overflow-hidden bg-slate-400 mb-4 '>
@@ -50,7 +50,7 @@ function App() {
             type="text"
             value={password}
             size={password.length}
-            className=' w-full outline-none text-slate-600'
+            className=' w-full outline-none text-slate-800 p-2'
             placeholder="Password"
             readOnly
             ref={passwordref}
